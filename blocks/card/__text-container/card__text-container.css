@@ -1,0 +1,6 @@
+.card__text-container {
+  width: 49.187%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

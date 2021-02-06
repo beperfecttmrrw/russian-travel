@@ -1,0 +1,8 @@
+.card__header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0 0 48px 0;
+}

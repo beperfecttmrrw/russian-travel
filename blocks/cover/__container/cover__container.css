@@ -1,0 +1,16 @@
+.cover__container {
+  width: 100%;
+  /* совсем не понимаю, как реализовать данный блок без фиксированной высоты.
+  Без этого свойства фоновая картинка не отображается полностью. */
+  height: 740px;
+  background-image: url(../../../images/cover.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 46px 0 46px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
