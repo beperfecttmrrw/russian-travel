@@ -3,7 +3,7 @@
   /* совсем не понимаю, как реализовать данный блок без фиксированной высоты.
   Без этого свойства фоновая картинка не отображается полностью. */
   height: 740px;
-  background-image: url(../../../images/cover.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   margin: 46px 0 46px 0;
