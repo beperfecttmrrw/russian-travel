@@ -1,5 +1,6 @@
 .description__text {
-  width: 70.1219512195122%;
+  max-width: 690px;
+  width: 100%;
   margin: 40px 0 0 0;
   font-weight: 400;
   font-size: 16px;

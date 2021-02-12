@@ -3,21 +3,26 @@
 
 /* global */
 @import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/link/link.css);
 
 /* header */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_underlined/header__lang-link_underlined.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__subtitle/header__subtitle.css);
-@import url(../blocks/header/__image/header__image.css);
-@import url(../blocks/header/__caption/header__caption.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /* main content */
 @import url(../blocks/content/content.css);
+
+/* travel */
+@import url(../blocks/travel/travel.css);
+@import url(../blocks/travel/__container/travel__container.css);
+@import url(../blocks/travel/__caption/travel__caption.css);
+@import url(../blocks/travel/__subtitle/travel__subtitle.css);
+@import url(../blocks/travel/__title/travel_title.css);
+@import url(../blocks/travel/__image/travel__image.css);
 
 /* description */
 @import url(../blocks/description/description.css);
@@ -25,7 +30,7 @@
 @import url(../blocks/description/__text/description__text.css);
 @import url(../blocks/description/__list/description__list.css);
 @import url(../blocks/description/__list-item/description__list-item.css);
-@import url(../blocks/description/__list-item/_normal/description__list-item_normal.css);
+@import url(../blocks/description/__list-number/description__list-number.css);
 
 /* photos */
 @import url(../blocks/photos/photos.css);
@@ -49,7 +54,7 @@
 /* cover */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__container/cover__container.css);
 
 /* footer */

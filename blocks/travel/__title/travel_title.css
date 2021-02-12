@@ -1,0 +1,39 @@
+.travel__title {
+  max-width: 720px;
+  width: 100%;
+  margin: 56px 0 0 0;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.05;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .travel__title {
+    margin: 48px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .travel__title {
+    max-width: 600px;
+    font-size: 60px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .travel__title {
+    max-width: 420px;
+    font-size: 44px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .travel__title {
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}

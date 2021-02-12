@@ -1,6 +1,25 @@
 .description {
-  width: 76.875%;
+  max-width: 984px;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+}
 
+@media screen and (max-width: 1024px) {
+  .description {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .description {
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .description {
+    max-width: calc(100% - 32px);
+  }
 }

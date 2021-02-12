@@ -1,5 +1,19 @@
 .description__list {
+  max-width: 690px;
+  width: 100%;
   list-style-type: none;
   margin: 33px 0 46px 0;
   padding: 0;
+}
+
+@media screen and (max-width: 940px) {
+  .description__list {
+    margin-bottom: 44px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .description__list {
+    margin-bottom: 32px;
+  }
 }

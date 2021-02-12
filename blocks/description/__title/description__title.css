@@ -1,7 +1,29 @@
 .description__title {
-  width: 70.1219512195122%;
+  max-width: 690px;
+  width: 100%;
   margin: 46px 0 0 0;
   font-weight: 900;
   font-size: 54px;
   line-height: 1.08;
+}
+
+@media screen and (max-width: 940px) {
+  .description__title {
+    margin-top: 44px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .description__title {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .description__title {
+    max-width: 245px;
+    font-size: 32px;
+    line-height: 1.1;
+    margin-top: 32px;
+  }
 }
