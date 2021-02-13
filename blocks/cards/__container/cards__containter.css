@@ -9,3 +9,23 @@
   margin: 46px 0 46px 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .cards__container {
+    max-width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cards__container {
+    max-width: calc(100% - 48px);
+    margin: 44px 0 44px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cards__container {
+    max-width: 450px;
+    margin: 32px 0 32px 0;
+  }
+}

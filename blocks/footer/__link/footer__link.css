@@ -1,12 +1,18 @@
 .footer__link {
+  display: inline;
   color: #fff;
   text-decoration: none;
-  margin-right: 18px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.1;
+  line-height: 1.12;
 }
 
-.footer__link:last-of-type {
-  margin: 0;
+
+
+@media screen and (max-width: 764px) {
+  .footer__link {
+    font-size: 24px;
+    line-height: 1;
+  }
+
 }

@@ -1,3 +1,14 @@
 .card__link-box {
-  width: 49.187%;
+  width: 100%;
+  grid-area: url;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 450px) {
+  .card__link-box {
+    max-width: calc(100% - 32px);
+  }
 }

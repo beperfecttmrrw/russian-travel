@@ -1,10 +1,47 @@
 .card {
-  display: flex;
-  flex-direction: column;
   padding: 0 0 80px 0;
   width: 100%;
+  display: grid;
+  grid-template-areas:
+    "title url"
+    "image text"
+    ;
+  column-gap: 40px;
+  row-gap: 48px;
 }
 
 .card:last-child {
   padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    column-gap: 28px;
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .card {
+    grid-template-areas:
+    "title"
+    "url"
+    "image"
+    "text"
+    ;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    row-gap: 32px;
+    padding-bottom: 64px;
+    justify-items: center;
+  }
 }

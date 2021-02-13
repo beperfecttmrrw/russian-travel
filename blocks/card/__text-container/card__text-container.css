@@ -1,6 +1,13 @@
 .card__text-container {
-  width: 49.187%;
+  width: 100%;
+  grid-area: text;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+
+@media screen and (max-width: 450px) {
+  .card__text-container {
+    max-width: calc(100% - 32px);
+  }
 }

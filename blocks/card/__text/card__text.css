@@ -5,7 +5,12 @@
   line-height: 1.63;
 }
 
-.card__text:last-child {
+.card__text:nth-child(2n) {
   margin-top: 26px;
 }
 
+@media screen and (max-width: 768px) {
+  .card__text {
+    font-size: 16px;
+  }
+}

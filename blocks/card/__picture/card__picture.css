@@ -1,4 +1,23 @@
 .card__picture {
-  width: 46.748%;
+  max-width: 460px;
+  width: 100%;
+  grid-area: image;
+}
 
+@media screen and (max-width: 1024px) {
+  .card__picture {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card__picture {
+    max-width: 340px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .card__picture {
+    max-width: 620px;
+  }
 }
