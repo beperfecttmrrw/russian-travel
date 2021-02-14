@@ -1,12 +1,12 @@
 .card__text {
-  margin: 0;
+  margin: 26px 0 0 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
 }
 
-.card__text:nth-child(2n) {
-  margin-top: 26px;
+.card__text:first-of-type {
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {

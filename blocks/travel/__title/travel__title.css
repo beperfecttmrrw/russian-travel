@@ -26,7 +26,6 @@
   .travel__title {
     max-width: 420px;
     font-size: 44px;
-    line-height: 1.1;
   }
 }
 
@@ -34,6 +33,5 @@
   .travel__title {
     max-width: 288px;
     font-size: 40px;
-    line-height: 1.1;
   }
 }
